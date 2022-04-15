@@ -1,0 +1,133 @@
+body {
+  display: block;
+  margin: 20px;
+}
+header {
+  background-color: #b8587b;
+  justify-content: space-around;
+}
+.logo {
+  display: inline-block;
+  padding-left: 1%;
+  width: 23%;
+  color: white;
+  font-size: 30px;
+  font-family: 'Supernett cn';
+  margin-top: 2%;
+}
+nav {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  padding: 2%;
+}
+nav ul {
+  margin-left: auto;
+}
+nav ul li {
+  vertical-align: top;
+  list-style-type: none;
+  display: inline-block;
+  padding: 1px 9px;
+  font-family: 'Supernett cn';
+  margin: 22px;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: white;
+  vertical-align: top;
+  margin-top: 10%;
+  font-size: 45px;
+}
+.section_one {
+  display: block;
+  background-color: #f4ecff;
+  height: 490px;
+  text-align: center;
+}
+.section_one .wrapper {
+  display: inline-block;
+  text-align: justify;
+  width: 700px;
+}
+.section_one img {
+  float: right;
+  width: 30%;
+  height: 490px;
+  clear: right;
+}
+.section_one .wrapper h4 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+.section_one .wrapper h2 {
+  text-align: center;
+  font-size: 32px;
+}
+.section_one .wrapper p {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+  color: #424649;
+}
+.section_one .wrapper .subhead_two span {
+  color: #b8587b;
+}
+
+footer {
+  background-color: #b8587b;
+}
+footer ul {
+  display: inline;
+}
+footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 8px 10px;
+}
+footer a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: white;
+  margin-top: 2%;
+  font-size: 40px;
+}
+footer div a.connect_me {
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 7%;
+  font-family: 'Supernett cn';
+}
+footer div ul li.contact_me a {
+  margin-left: -80%;
+}
+footer div ul li.copyright img {
+  width: 12%;
+  height: 12%;
+  padding-left: 10%;
+  margin-top: 1%;
+  float: left;
+}
+footer div ul {
+  margin-left: 20%;
+}
+footer div ul li {
+  display: inline-block;
+  margin-top: 2%;
+  font-family: 'Supernett cn';
+}
+footer div {
+  margin-left: 6%;
+  padding-bottom: 1%;
+}
+footer .logos_footer img {
+  height: 45px;
+  width: 45px;
+  margin-left: 2%;
+}
